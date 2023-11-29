@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev | Matheus - Home</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/login-w.png">
+    <script src="https://kit.fontawesome.com/9617b61c5f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleBtn.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .w3-sidebar {
+            width: 50px;
+            margin-top: 30vh;
+        }
+
+        .main-title {
+            font-size: 90px;
+            font-weight: 700;
+            color: #5f6061;
+            margin-bottom: -25px;
+            letter-spacing: -2px;
+        }
+
+        .dev-subtitle {
+            color: #5f6061;
+            margin-top: 55px;
+            font-size: 22px;
+            width: 400px;
+        }
+
+        .balao2{
+            background: #000;
+            border-radius: 15px;
+            width: 300px;
+            height: 100px;
+
+            position: relative;
+        }
+        .balao2:after {
+
+            content: "";
+
+            width: 0;
+            height: 0;
+
+            position: absolute;
+
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #000;
+
+            bottom: -20px;
+            left: 60%;
+        }
+
+        .msg-lang {
+            color: white;
+            padding: 28px;
+            font-weight: 400;
+        }
+
+        .desc-my {
+            margin-top: 50px;
+            width: 500px;
+            font-size: 16px;
+            font-weight: 100;
+        }
+
+        .photo-main {
+            margin-left: 58%;
+            margin-top: -150px;
+            border-radius: 5px;
+            width: 450px;
+            height: 780px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="font-size: 17px;">
+        <a class="navbar-brand mr-5" href="">Msinatora</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:msinatora8@gmail.com"><i class="fa-solid fa-envelope ml-5"></i> msinatora8@gmail.com</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="darktheme.html"><i class="fa-solid fa-circle-half-stroke ml-4"></i></a>
+            </li>
+
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/msinatora?tab=repositories" target="_blank"><i class="fa-solid fa-file ml-2"></i> Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=""><i class="fa-solid fa-user ml-2"></i> Perfil</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-light-white w3-bar-block">
+            <h3 class="w3-bar-item"></h3>
+            <a href="https://www.linkedin.com/in/matheussinatora/" target="_blank"  class="w3-bar-item w3-button"><i class="fa-brands fa-linkedin" style="font-size: 30px;"></i></a>
+            <a href="https://github.com/msinatora" class="w3-bar-item w3-button" target="_blank"><i class="fa-brands fa-github" style="font-size: 30px;"></i></a>
+            <a href="https://open.spotify.com/user/21u4rxyev7ecz73w2znmp4oiy" target="_blank" class="w3-bar-item w3-button"><i class="fa-brands fa-spotify" style="font-size: 30px;"></i></a>
+        </div>
+        
+        <!-- Page Content -->
+        <div style="margin-left:5%; margin-top: 5%;">
+         <div class="balao2" style="margin-left:7%; margin-top: 5%;">
+            <h4 class="msg-lang">Olá, Seja bem-vindo!</h4> 
+            <div class="w3-container">
+        
+            <h2 class="main-title" style="margin-left:0%; margin-top: 25%;">Matheus</h2>
+            <h2 class="main-title" style="margin-left: 35%;">Sinatora</h2>
+            <h5 class="dev-subtitle">Desenvolvedor Java Junior.</h5>
+            <!-- <p>The left margin of the page content is set to the same value.</p> -->
+            <p class="desc-my">Atualmente sou Analista de Suporte de TI e Dev. júnior, tenho 18 anos e tenho experiência de mercado com PHP e SQL (Postgre), JS, HTML, CSS. Hoje meu foco de estudo e de oportunidades é em desenvolvimento Java Web (EE, Jakarta).</p>
+            </p> 
+        </div>
+        </div>
+    <div>
+    <img src="img/matheus.jpeg" class="photo-main">
+    </div>
+  <script src="script.js"></script>
+  <script src="scriptBtn.js"></script>
+</body>
+</html>

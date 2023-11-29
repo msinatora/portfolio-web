@@ -1,0 +1,35 @@
+.audio-player {
+    display: flex;
+    align-items: center;
+  }
+  
+  .round-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #bdbdbd; /* Cor cinza */
+    border: 2px solid #333; /* Cor preta */
+    cursor: pointer;
+    outline: none;
+    background-image: url('icone-play.png'); /* Substitua pelo caminho do seu ícone de play */
+    background-size: 50%; /* Ajuste conforme necessário */
+    background-position: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .round-button:hover {
+    background-color: #a0a0a0; /* Cor cinza mais escura ao passar o mouse */
+    border-color: #ffffff; /* Cor preta mais escura ao passar o mouse */
+  }
+  .play-btn-aws {
+    font-size: 35px; 
+    color: #000000;
+  }
+
+  .play-btn-aws:hover { 
+    color: #fefefe;
+  }
+  
+  .round-button.pause {
+    background-image: url('icone-pause.png'); /* Substitua pelo caminho do seu ícone de pause */
+  }
